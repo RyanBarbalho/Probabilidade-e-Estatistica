@@ -22,7 +22,7 @@ tabela <- table(notaRed.cut,notaMat.cut)
 tabela
 
 plot(x = notaMat, y = notaRed)
-plot(notaMat ~ notaRed, data = marechalData)
+plot(notaMat ~ notaRed, data = marechalData,col=c("blue","green","cyan"), pch=19)
 
 
 cor(notaMat,notaRed, method = "kendall")
